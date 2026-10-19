@@ -1,5 +1,28 @@
+# 패키지 설치 폴더
 node_modules/
+venv/
+.venv/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# 환경 변수 및 비밀 정보
 .env
+.env.*
 *.key
 *.pem
-__pycache__/
+secrets.json
+credentials.json
+
+# 빌드 결과물
+dist/
+build/
+
+# 로그
+*.log
+
+# OS 및 에디터 자동 생성 파일
+.DS_Store
+Thumbs.db
+.vscode/
